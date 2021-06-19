@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="1" name="com.studentapp.junit.sstudentsidinfo.Serenityinfo" skipped="3" tests="7" time="14.31" timestamp="2021-06-19 08:47:09"><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="This ISA skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="This is a manual"><skipped/></testcase><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="This is a failing"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.sstudentsidinfo.Serenityinfo.thisIsAFailing(Serenityinfo.java:42)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="This ISA pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="File does not exist"><error message="D:\file.txt (The system cannot find the file specified)" type="java.io.FileNotFoundException">D:\file.txt (The system cannot find the file specified)</error><system-err>D:\file.txt (The system cannot find the file specified)&#13;
+com.studentapp.junit.sstudentsidinfo.Serenityinfo.fileDoesNotExist(Serenityinfo.java:65)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="Get all students"/><testcase classname="com.studentapp.junit.sstudentsidinfo.Serenityinfo" name="This IS an error test"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.sstudentsidinfo.Serenityinfo.thisISAnErrorTest(Serenityinfo.java:59)&#13;
+</system-err></testcase></testsuite>
